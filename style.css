@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(360deg,rgba(0,0,0,0.9),transparent), url(images/desert.jpg);
+    -webkit-background-size: cover;
+}
+
+.header-text {
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 28px;
+    margin-left: 45px;
+    color: #ddd;
+}
+.btn {
+    font-size: 18px;
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 15px 35px;
+    outline: none;
+    border: none;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-align: center;
+}
+
+.service {
+    width: 90%;
+   padding: 25px 10px;
+   background: #fff;
+   margin: 15px 25px; 
+   border-radius: 5px;
+}
+
